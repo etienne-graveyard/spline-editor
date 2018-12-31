@@ -1,0 +1,38 @@
+{
+  "name": "spline-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "deploy": "parcel build src/index.html && tar -cvf ./deploy.tar --exclude='*.map' ./captain-definition ./dist/* && npx captainduckduck deploy -t ./deploy.tar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etienne-dldc/spline-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etienne-dldc/spline-editor/issues"
+  },
+  "homepage": "https://github.com/etienne-dldc/spline-editor#readme",
+  "dependencies": {
+    "framesync": "^4.0.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "add": "^2.0.6",
+    "and": "^0.0.3",
+    "parcel-bundler": "^1.11.0",
+    "typescript": "^3.2.2",
+    "yarn": "^1.12.3"
+  }
+}
