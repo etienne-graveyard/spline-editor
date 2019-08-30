@@ -8,7 +8,7 @@ import { CState } from '../index';
 import { scaleUp } from '../common';
 import { bezier } from '../../utils/bezier';
 
-const bez = bezier(0, 0, 0, -3);
+const bez = bezier(0, 0, 0, 1);
 
 export const AppLayer: Layer<{ store: Store; canvasState: CState }> = (ctx, {}, { width, height }) => {
   // const state = store.getState();
