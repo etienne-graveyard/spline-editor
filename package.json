@@ -22,17 +22,16 @@
   "dependencies": {
     "framesync": "^4.0.4",
     "normalize.css": "^8.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
-    "@types/react": "^16.8.24",
-    "@types/react-dom": "^16.8.5",
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
     "add": "^2.0.6",
     "and": "^0.0.3",
-    "parcel-bundler": "^1.12.3",
-    "typescript": "^3.5.3",
-    "yarn": "^1.17.3"
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.6.4"
   }
 }
